@@ -94,3 +94,5 @@ const styles = StyleSheet.create({
     color: '#034d0c',
   },
 });
+
+//VAIPALMEIRAS
