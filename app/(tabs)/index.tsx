@@ -1,6 +1,7 @@
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React, { useEffect, useRef } from 'react';
-import { Animated, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { View, Text, StyleSheet, Animated, TouchableOpacity } from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { teste } from '../';
 
 export default function HomeScreen() {
   const scaleAnim = useRef(new Animated.Value(1)).current;
@@ -90,6 +91,6 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#6C5CE7',
+    color: '#034d0c',
   },
 });
