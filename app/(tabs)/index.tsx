@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { View, Text, StyleSheet, Animated, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { teste } from '../';
+
 
 export default function HomeScreen() {
   const scaleAnim = useRef(new Animated.Value(1)).current;
